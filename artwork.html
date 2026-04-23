@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artwork — Wren Idle</title>
+  <meta name="description" content="Hand-drawn artwork for Wren Idle — every scribble is intentional. The chaos on paper = the chaos in my head.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #FFF8F0; color: #2D2D2D; font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 bg-[#FFF8F0] z-50 border-b border-transparent" id="navbar">
+    <div class="max-w-3xl mx-auto px-5 py-4 flex items-center justify-between">
+      <a href="/"><img src="assets/logo.png" alt="Wren Idle" class="h-10 w-10 rounded-full"></a>
+      <div class="flex items-center gap-6 text-sm">
+        <a href="/story.html" class="hover:underline">Story</a>
+        <a href="/music.html" class="hover:underline">Music</a>
+        <a href="/artwork.html" class="hover:underline font-medium">Artwork</a>
+        <a href="#" class="border border-[#6B7280] rounded-md px-3 py-1 hover:bg-[#2D2D2D] hover:text-[#FFF8F0] transition-colors">Listen ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-3xl mx-auto px-5 py-16">
+
+    <!-- Breadcrumb -->
+    <p class="text-xs text-[#6B7280] mb-8"><a href="/" class="hover:underline">Home</a> › Artwork</p>
+
+    <!-- Hero -->
+    <header class="text-center mb-16">
+      <h1 class="text-4xl font-bold mb-4">Artwork</h1>
+      <p class="text-base text-[#6B7280] max-w-sm mx-auto leading-relaxed">
+        Every scribble is intentional. Not because I know what I'm drawing.
+        But because the chaos on paper = the chaos in my head.
+      </p>
+    </header>
+
+    <!-- Gallery — masonry-like with CSS columns -->
+    <div class="columns-2 gap-4 space-y-4">
+      <!-- Add artwork images here -->
+      <!-- Example: -->
+      <!-- <img src="assets/artwork/ep-cover.jpg" alt="Powerful Boredom EP cover — colorful hand-drawn boombox" class="w-full rounded-lg shadow-sm hover:scale-[1.02] transition-transform cursor-pointer"> -->
+
+      <!-- Placeholder for when artwork is ready -->
+      <div class="bg-[#F0EBE3] rounded-lg aspect-square flex items-center justify-center text-[#6B7280] text-sm">
+        Artwork coming soon
+      </div>
+      <div class="bg-[#F0EBE3] rounded-lg aspect-video flex items-center justify-center text-[#6B7280] text-sm">
+        EP Cover
+      </div>
+      <div class="bg-[#F0EBE3] rounded-lg aspect-square flex items-center justify-center text-[#6B7280] text-sm">
+        Wren Idle logo
+      </div>
+    </div>
+
+    <!-- Note -->
+    <div class="mt-16 text-center">
+      <p class="text-sm italic text-[#6B7280] max-w-md mx-auto leading-relaxed">
+        All artwork is hand-drawn. Not AI-generated.
+        The music is a human-AI collaboration. The visuals are purely human.
+        That contrast is intentional.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-[#D1D5DB] mt-16 py-10 text-center text-[#6B7280] text-sm">
+    <div class="max-w-3xl mx-auto px-5">
+      <p class="mb-2">Wren Idle — A GIZIPP STUDIOS project.</p>
+      <p class="mb-4"><a href="mailto:wrenidle@gizipp.com" class="hover:underline">wrenidle@gizipp.com</a></p>
+      <p>© 2025 GIZIPP STUDIOS &nbsp;·&nbsp; <span class="text-xs">Last updated: April 2026</span></p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').style.borderColor = window.scrollY > 10 ? '#D1D5DB' : 'transparent';
+    });
+  </script>
+</body>
+</html>

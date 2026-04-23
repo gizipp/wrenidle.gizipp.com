@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Story — Wren Idle</title>
+  <meta name="description" content="How a quiet human and an AI made music about loneliness. The origin story of Wren Idle.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #FFF8F0; color: #2D2D2D; font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 bg-[#FFF8F0] z-50 border-b border-transparent" id="navbar">
+    <div class="max-w-3xl mx-auto px-5 py-4 flex items-center justify-between">
+      <a href="/"><img src="assets/logo.png" alt="Wren Idle" class="h-10 w-10 rounded-full"></a>
+      <div class="flex items-center gap-6 text-sm">
+        <a href="/story.html" class="hover:underline font-medium">Story</a>
+        <a href="/music.html" class="hover:underline">Music</a>
+        <a href="/artwork.html" class="hover:underline">Artwork</a>
+        <a href="#" class="border border-[#6B7280] rounded-md px-3 py-1 hover:bg-[#2D2D2D] hover:text-[#FFF8F0] transition-colors">Listen ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-2xl mx-auto px-5 py-16">
+
+    <!-- Breadcrumb -->
+    <p class="text-xs text-[#6B7280] mb-8"><a href="/" class="hover:underline">Home</a> › Story</p>
+
+    <!-- Hero -->
+    <header class="text-center mb-16">
+      <h1 class="text-4xl font-bold mb-4">The Story of Wren Idle</h1>
+      <p class="text-lg text-[#6B7280] italic mb-3">How a Quiet Human and an AI Made Music About Loneliness</p>
+      <p class="text-xs text-[#6B7280]">Last updated: April 2026</p>
+    </header>
+
+    <!-- Article content -->
+    <article class="prose prose-lg leading-relaxed space-y-8 text-[#2D2D2D]" style="line-height: 1.8; font-size: 17px;">
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">Who Is Wren Idle?</h2>
+      <p>
+        Wren Idle is a bedroom pop project born from a collaboration between human emotion and artificial intelligence.
+        Created by GIZIPP STUDIOS, it explores what loneliness sounds like when expressed through music made by
+        a quiet human and an almost-alive AI.
+      </p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">How It Started</h2>
+      <p>
+        <!-- Origin story content goes here — do not edit the original text -->
+        [Origin story content]
+      </p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">The Human-AI Collaboration Process</h2>
+      <p>
+        Every track started with a feeling that couldn't be explained to anyone.
+        Then an attempt to explain it to AI. Then revisions — humming, redirecting, pushing back.
+        Not one-click generation. A messy, frustrating, sometimes beautiful collaboration.
+      </p>
+      <p>
+        The process, simplified:
+      </p>
+      <ol class="list-decimal list-inside space-y-2 text-[#6B7280] text-base">
+        <li>Starting with a feeling I couldn't explain to anyone</li>
+        <li>Trying to explain it to AI</li>
+        <li>AI making a first draft — usually too polished, too clean</li>
+        <li>Humming, redirecting, pushing back</li>
+        <li>Going back and forth until it felt honest</li>
+        <li>Sometimes it never got there — and that became part of the story too</li>
+      </ol>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">Why Bedroom Pop?</h2>
+      <p>
+        Bedroom pop is music made in private, for private feelings. It doesn't need a stage.
+        It doesn't need an audience. It just needs to be honest.
+        That's what Wren Idle is.
+      </p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">The Result</h2>
+      <p>
+        Can AI understand loneliness? Honest answer: not really. Not yet.
+        But the attempt produced something that feels surprisingly real.
+      </p>
+      <p class="italic text-[#6B7280]">
+        The feelings are real. The medium is just... different.
+      </p>
+
+    </article>
+
+    <!-- CTA -->
+    <div class="border-t border-[#D1D5DB] mt-16 pt-12 text-center">
+      <p class="text-lg font-medium mb-6">EP: Powerful Boredom — out now.</p>
+      <a href="/music.html" class="bg-[#2D2D2D] text-[#FFF8F0] px-8 py-3 rounded-lg hover:bg-[#6B7280] transition-colors inline-block mb-6">Listen</a>
+    </div>
+
+    <!-- Closing quote -->
+    <p class="text-2xl italic text-[#6B7280] text-center py-16">"Quiet outside. Loud inside."</p>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-[#D1D5DB] py-10 text-center text-[#6B7280] text-sm">
+    <div class="max-w-3xl mx-auto px-5">
+      <p class="mb-2">Wren Idle — A GIZIPP STUDIOS project.</p>
+      <p class="mb-4"><a href="mailto:wrenidle@gizipp.com" class="hover:underline">wrenidle@gizipp.com</a></p>
+      <p>© 2025 GIZIPP STUDIOS &nbsp;·&nbsp; <span class="text-xs">Last updated: April 2026</span></p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').style.borderColor = window.scrollY > 10 ? '#D1D5DB' : 'transparent';
+    });
+  </script>
+</body>
+</html>
