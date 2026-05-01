@@ -21,6 +21,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://wrenidle.gizipp.com/research.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://wrenidle.gizipp.com/links.html</loc>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
